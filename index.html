@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idriss Haddad | Computer Science Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Idriss Haddad home">Idriss Haddad<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Computer Science Engineering Student</p>
+        <h1 id="hero-title">Idriss Haddad</h1>
+        <p class="hero-intro">I'm Idriss, a Computer Science Engineering student interested in Artificial Intelligence, Computer Vision, and Cloud Computing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">&rarr;</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-links" aria-label="Profile links">
+          <a href="https://github.com/idrissoo03" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">&nearr;</span></a>
+          <a href="https://www.linkedin.com/in/idriss-hadedd-240755134/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">&nearr;</span></a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="Current focus">
+        <p class="note-label">Currently</p>
+        <p>Finishing my engineering degree and looking for a final-year internship (PFE) where I can apply what I've learned and gain hands-on experience.</p>
+        <div class="note-rule"></div>
+        <p class="note-meta">Based in Tunisia<br>Open to final-year internship opportunities</p>
+      </aside>
+    </section>
+
+    <section class="section container" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 / Work</p>
+        <h2 id="experience-title">Experience</h2>
+      </div>
+      <div class="experience-list">
+        <article class="experience-item">
+          <div class="experience-date">August 2026<br>1 month</div>
+          <div class="experience-content">
+            <h3>Information Systems Intern <span>@</span> United Gulf Financial Services North Africa</h3>
+            <p>Analyzed internal business processes and requirements to support information system digitalization, using Excel to structure process data and identify workflow improvements.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>Microsoft Excel</li><li>Process analysis</li><li>Requirements gathering</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-date">August 2025<br>1 month</div>
+          <div class="experience-content">
+            <h3>Observation Intern <span>@</span> Tunisie Telecom</h3>
+            <p>Observed technical and administrative operations while gaining practical insight into telecommunications services, network infrastructure, and national network maintenance.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>Telecommunications</li><li>Network infrastructure</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading section-heading-wide">
+          <div><p class="eyebrow">02 / Selected work</p><h2 id="projects-title">Projects</h2></div>
+          <p class="section-summary">A few things I've made while learning, experimenting, and solving problems for people around me.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline"><span>01</span><span>Sep 2026</span></div>
+            <h3>Hand Gesture Volume Controller</h3>
+            <p>A real-time computer vision application that maps the distance between the thumb and index finger to system volume through live webcam gesture detection.</p>
+            <ul class="tag-list"><li>Python</li><li>OpenCV</li><li>MediaPipe</li></ul>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>02</span><span>Aug 2026</span></div>
+            <h3>AI Assistant &mdash; RAG &amp; Tool-Calling Agent</h3>
+            <p>Built a conversational AI assistant combining Retrieval-Augmented Generation with an LLM-based tool-calling agent for semantic search, calculations, and text summarization.</p>
+            <ul class="tag-list"><li>Python</li><li>LangChain</li><li>FastAPI</li><li>ChromaDB</li><li>Groq / Llama 3.3</li></ul>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>03</span><span>Apr 2026</span></div>
+            <h3>Containerized DNS Infrastructure</h3>
+            <p>Deployed a redundant master-slave DNS infrastructure with automatic zone transfers using Docker, BIND9, and Rocky Linux.</p>
+            <ul class="tag-list"><li>Docker</li><li>BIND9</li><li>Rocky Linux</li><li>DNS</li></ul>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>04</span><span>Apr 2026</span></div>
+            <h3>QartNET &mdash; Collaborative Academic Platform</h3>
+            <p>Developed a collaborative platform for the ENICarthage community with authentication, role-based administration, session management, password reset, and secure data access.</p>
+            <ul class="tag-list"><li>Angular</li><li>Spring Boot</li><li>PostgreSQL</li><li>RBAC</li></ul>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>05</span><span>Apr 2026</span></div>
+            <h3>Delivery Supervision Mobile App</h3>
+            <p>Developed an Android app for controllers and delivery drivers to search and monitor deliveries, view live statuses, and communicate through in-app messaging.</p>
+            <ul class="tag-list"><li>Android</li><li>Java</li><li>MySql</li></ul>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>06</span><span>Dec 2025</span></div>
+            <h3>Delivery Management System</h3>
+            <p>Built a web-based system to manage articles, orders, and deliveries through a web interface backed by REST APIs.</p>
+            <ul class="tag-list"><li>Node.js</li><li>Express</li><li>Oracle PL/SQL</li><li>REST APIs</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="education" aria-labelledby="education-title">
+      <div class="container education-layout">
+        <div class="section-heading"><p class="eyebrow">03 / Academic path</p><h2 id="education-title">Education</h2></div>
+        <div class="education-list">
+          <div class="education-item">
+            <div class="experience-date">Sept 2024<br>July 2027</div>
+            <div>
+              <h3>Engineering Degree in Computer Science <span class="education-level">3rd year</span></h3>
+              <p class="education-school">Ecole Nationale d'Ingenieurs de Carthage (ENICarthage) &mdash; Carthage, Tunisia</p>
+              <p>Three-year engineering program focused on software engineering and computer science.</p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="experience-date">Sept 2022<br>July 2024</div>
+            <div>
+              <h3>Preparatory Diploma in Physics and Engineering Sciences</h3>
+              <p class="education-school">Institut Preparatoire aux Etudes d'Ingenieurs de Monastir (IPEIM) &mdash; Monastir, Tunisia</p>
+              <p>Ranked 90th out of 686 candidates in the national engineering school entrance exam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container skills-layout">
+        <div class="section-heading"><p class="eyebrow">04 / Toolkit</p><h2 id="skills-title">Skills</h2></div>
+        <div class="skills-grid">
+          <div class="skill-group"><h3>Programming</h3><p>Python<br>Java<br>C / C++<br>JavaScript<br>SQL</p></div>
+          <div class="skill-group"><h3>Backend</h3><p>FastAPI<br>Spring Boot<br>REST APIs<br>PostgreSQL<br>SQLite</p></div>
+          <div class="skill-group"><h3>Data &amp; vision</h3><p>OpenCV<br>scikit-learn<br>pandas<br>LangChain<br>Jupyter</p></div>
+          <div class="skill-group"><h3>Tools</h3><p>Git<br>Docker<br>Linux<br>AWS<br>Figma</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section container" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy"><p class="eyebrow">05 / Contact</p><h2 id="contact-title">Let's work on something useful.</h2><p>Email is the best way to reach me. I'm open to final-year internships and opportunities to learn with a good engineering team.</p></div>
+      <div class="contact-details"><a class="contact-email" href="mailto:alex.morgan.dev@example.com">idriss.haddad@enicar.ucar.tn <span aria-hidden="true">&nearr;</span></a><div class="contact-links"><a href="https://github.com/idrissoo03" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/idriss-hadedd-240755134/" target="_blank" rel="noreferrer">LinkedIn</a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>Idriss Haddad</span><span>&copy; <span id="year"></span> made with ❤️.</span><a href="#top">Back to top &uarr;</a></div></footer>
+</body>
+</html>
